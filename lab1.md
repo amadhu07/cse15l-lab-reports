@@ -20,6 +20,7 @@ The terminal should look like this.
 ![serverlog2](serverlog2.png)
 
 3. After logging in you should get a message saying that you are "Now remote on the server."
+![serverconnected](connected.png)
 
 
 
