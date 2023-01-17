@@ -10,10 +10,11 @@ If using Mac git is already installed through a binary package from Xcode.
 
 Remotely Connecting
 1. Open Visual Studio Code and open the menu bar. Click on Terminal and select New terminal or use the following command indicated by the option.  
-![New Terminal](Terminal.png).  
+![New Terminal](Terminal.png)  
 The terminal should look like this.
-![terminalwindow](
+![terminalwindow](terminaltab.png)
 
 
-2. To login to your cse15l account type the command `ssh cs15lwi23zz@ieng6.ucsd.edu` and replace the zz with the last 3 letters of your cse15l user account. 
+2. To login to your cse15l account type the command `ssh cs15lwi23zz@ieng6.ucsd.edu` and replace the zz with the last 3 letters of your cse15l user account. You will be prompted to enter your password for your account. After entering your message should look like this if its your first time connecting to the server.
+![serverlog1](
 
