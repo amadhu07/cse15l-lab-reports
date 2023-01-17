@@ -1,9 +1,9 @@
 Installing Visual Studio Code
 1. Download [vscode](https://code.visualstudio.com/). 
 ![Vscode Download Page](Vscode.png)	
-Follow the directions on the webpage and install the appropriate version for your device preferably the latest. 
-Make sure to install [git](https://gitforwindows.org/) for windows.
-![git]()
+Follow the directions on the webpage and install the appropriate version for your device preferably the latest.   
+Make sure to install [git](https://gitforwindows.org/) for windows.  
+![git](git.png)
 If using Mac git is already installed through a binary package from Xcode. 
 
 2. After installing open the file and follow the directions.
