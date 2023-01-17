@@ -16,5 +16,6 @@ The terminal should look like this.
 
 
 2. To login to your cse15l account type the command `ssh cs15lwi23zz@ieng6.ucsd.edu` and replace the zz with the last 3 letters of your cse15l user account. You will be prompted to enter your password for your account. After entering your message should look like this if its your first time connecting to the server.
-![serverlog1](
+![serverlog1](serverlog1.png)
+![serverlog2](serverlog2.png)
 
