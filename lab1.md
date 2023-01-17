@@ -21,15 +21,15 @@ The terminal should look like this.
 
 3. After logging in you should get a message saying that you are "Now remote on the server."
 ![serverconnected](connected.png). 
-**Running Commands**
+**Running Commands**. 
 Try to run these commands on the terminal in your Vscode shell or on your computer.  
-*`cd ~`
-*`cd`
-*`ls -lat`
-*`ls -a`
-*`ls <directory> where <directory> is /home/linux/ieng6/cs15lwi23/cs15lwi23abc`, where the abc is one of the other group members’ username
-*`cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/`
-*`cat /home/linux/ieng6/cs15lwi23/public/hello.txt`
+*`cd ~`*
+*`cd`*
+*`ls -lat`*
+*`ls -a`*
+*`ls <directory> where <directory> is /home/linux/ieng6/cs15lwi23/cs15lwi23abc`, where the abc is one of the other group members’ username*
+*`cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/`*
+*`cat /home/linux/ieng6/cs15lwi23/public/hello.txt`*
 
 
 
