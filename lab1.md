@@ -7,4 +7,6 @@ Follow the directions on the webpage and install the appropriate version for you
 
 Remotely Connecting
 1. Open Visual Studio Code and open the menu bar. Click on Terminal and select New terminal or use the following command indicated by the option.  
-![New Terminal 
+![New Terminal](Terminal.png)
+2. To login to your cse15l account type the command 'ssh cs15lwi23zz@ieng6.ucsd.edu' and replace the zz with the last 3 letters of your cse15l user account. 
+
