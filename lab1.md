@@ -26,11 +26,11 @@ The terminal should look like this.
 Try to run these commands on the terminal in your Vscode shell or on your computer.  
 * `cd ~`
 * `cd`
--`ls -lat`
--`ls -a`
--`ls <directory> where <directory> is /home/linux/ieng6/cs15lwi23/cs15lwi23abc`, where the abc is the last 3 letters of your username.
--`cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/`
--`cat /home/linux/ieng6/cs15lwi23/public/hello.txt`
+*`ls -lat`
+*`ls -a`
+*`ls <directory> where <directory> is /home/linux/ieng6/cs15lwi23/cs15lwi23abc`, where the abc is the last 3 letters of your username.
+*`cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/`
+*`cat /home/linux/ieng6/cs15lwi23/public/hello.txt`
 
 
 
