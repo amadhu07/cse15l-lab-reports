@@ -20,10 +20,10 @@ The terminal should look like this.
 ![serverlog2](serverlog2.png)
 
 3. After logging in you should get a message saying that you are "Now remote on the server."
-![serverconnected](connected.png)
-**Running Commands**. 
+![serverconnected](connected.png). 
+**Running Commands** 
 Try to run these commands on the terminal in your Vscode shell or on your computer.  
--`cd ~`
+-`cd ~`-
 -`cd`
 -`ls -lat`
 -`ls -a`
