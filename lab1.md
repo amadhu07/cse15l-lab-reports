@@ -32,7 +32,7 @@ Try to run these commands on the terminal in your Vscode shell or on your comput
 * `ls -a`
 * `ls <directory> where <directory> is /home/linux/ieng6/cs15lwi23/cs15lwi23abc`, where the abc is the last 3 letters of your username.
 * `cp /home/linux/ieng6/cs15lwi23/public/hello.txt ~/`
-* `cat /home/linux/ieng6/cs15lwi23/public/hello.txt`
+* `cat /home/linux/ieng6/cs15lwi23/public/hello.txt`  
 cd will take you into the current directory and move forward into the next folder.
 cd ~ will take you back to the home directory.
 ls -lat lists a log of all files within the user account that have been accessed in chronological order.
