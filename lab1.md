@@ -1,6 +1,9 @@
 **Installing Visual Studio Code**
 1. Download [vscode](https://code.visualstudio.com/). 
-![Vscode Download Page](Vscode.png)	
+![Vscode Download Page](Vscode.png)
+Select the Download Button on the upper right corner of the webpage. You will be brought to the download page showing the installers for your respective operating systems. 
+![Vscode Installer Page]
+
 Follow the directions on the webpage and install the appropriate version for your device preferably the latest.   
 Make sure to install [git](https://gitforwindows.org/) for windows.  
 ![git](git.png)
