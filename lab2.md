@@ -12,7 +12,6 @@
 ![Hello.png](Hello.png)  
 * getPath(),getQuery() add() 
 * The parameters changed to string objects.
-* 
 
 
 ![Hello+HowAreYou.png](Hello+HowAreYou.png)
