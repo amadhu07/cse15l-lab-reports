@@ -74,4 +74,11 @@ static void reverseInPlace(int[] arr) {
     }
 }
 ```
-* 
+###Part 2
+
+Creates a separate array to store the contents of the reversed array into a new array. Then uses a forloop to assign supplied array with the reversed contents of the array by the index starting from 0 until the end of the array. 
+
+###Part 3
+From Week 2 I learned what you could do on the remote server and understood that If I wanted to make changes to that server I would first need to get a copy of the remote server onto my local machine. For nay changes I make on my local directory I would need to commit by either using the Github desktop application or the command to update the server. 
+
+
