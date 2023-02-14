@@ -15,7 +15,7 @@
 * 
 
 
-![Hello+HowAreYou.png!](Hello+HowAreYou.png)
+![Hello+HowAreYou.png](Hello+HowAreYou.png)
 * getPath(),getQuery() add() 
 * The parameters changed to string objects
 * The arraylist contains Hello /n How are you
