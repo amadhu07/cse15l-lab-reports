@@ -6,9 +6,6 @@
 ![StringServerCode](StringServer.png)
 
 
-
-
-
 ![Hello.png](Hello.png)  
 * getPath(),getQuery() add() 
 * The parameters changed to string objects.
