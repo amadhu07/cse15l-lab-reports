@@ -1,5 +1,5 @@
 
-**Lab 3**  
+**Lab 2**  
 ###Part 1
 ***StringServer***
 
