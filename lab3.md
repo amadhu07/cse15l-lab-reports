@@ -20,7 +20,7 @@ This find command searches for a file ashutosh.txt in the written_2 subfolders. 
 Output:    
 Nothing is outputted since ```ch.txt``` does not exist however if I use -iname which ignore case sensitivity,
 ```find /Users/ashutoshmadhu/Documents/GitHub/docsearch/written_2 -iname "chz.txt"```      
-[ignorecase] (https://alvinalexander.com/blog/post/linux-unix/case-insensitive-file-searching-unix-linux-mac-osx/)
+find [ignorecase] (https://alvinalexander.com/blog/post/linux-unix/case-insensitive-file-searching-unix-linux-mac-osx/)
 Output:  
 /Users/ashutoshmadhu/Documents/GitHub/docsearch/written_2/non-fiction/OUP/Castro/chZ.txt
 
