@@ -8,9 +8,15 @@ This command allows you to search for folders with the name "berlitz1" in the su
 
 2.```find . -name '*.txt'```
 Output:
-![findtxt](findtxt.png]
+![findtxt](findtxt.png)
 
 This command will list all files with the txt extension in the current directory. Good for searching for a specific file type. 
+
+3.```find . -name '*.txt' | wc -l```
+Output:
+224
+This command lists the number of all files with .txt extenstion. Is useful if you want to know how many files of a specific filetype exist in the current directory. 
+
 
 
 
