@@ -1,7 +1,7 @@
 # Researching Find String
 
-1. ```find /Users/ashutoshmadhu/Documents/GitHub/docsearch/written_2 -name "V*.txt"```  
-command [manual](https://man7.org/linux/man-pages/man1/find.1.html)    
+1. ```find /Users/ashutoshmadhu/Documents/GitHub/docsearch/written_2 -name "V*.txt"```    
+command [manual](https://man7.org/linux/man-pages/man1/find.1.html)      
 Output:    
 /Users/ashutoshmadhu/Documents/GitHub/docsearch/written_2/travel_guides/berlitz2/Vallarta-History.txt
 /Users/ashutoshmadhu/Documents/GitHub/docsearch/written_2/travel_guides/berlitz2/Vallarta-WhatToDo.txt
@@ -16,12 +16,12 @@ Output:
 This find command searches for a file ashutosh.txt in the written_2 subfolders. Since it didn’t find ashutosh.txt there is nothing to display as the output. 
 
 
-3. ```find /Users/ashutoshmadhu/Documents/GitHub/docsearch/written_2 -name "chz.txt"```  
+3. ```find /Users/ashutoshmadhu/Documents/GitHub/docsearch/written_2 -name "chz.txt"```    
 Output:    
 Nothing is outputted since ```ch.txt``` does not exist however if I use -iname which ignore case sensitivity,
-```find /Users/ashutoshmadhu/Documents/GitHub/docsearch/written_2 -iname "chz.txt"```  
-[ignorecase](https://alvinalexander.com/blog/post/linux-unix/case-insensitive-file-searching-unix-linux-mac-osx/)
-Output:
+```find /Users/ashutoshmadhu/Documents/GitHub/docsearch/written_2 -iname "chz.txt"```      
+[ignorecase] (https://alvinalexander.com/blog/post/linux-unix/case-insensitive-file-searching-unix-linux-mac-osx/)
+Output:  
 /Users/ashutoshmadhu/Documents/GitHub/docsearch/written_2/non-fiction/OUP/Castro/chZ.txt
 
 This command will list every file containing the supplied string. This useful for finding multiple files containing a particular string of the same word.
@@ -31,8 +31,8 @@ Output:
 /Users/ashutoshmadhu/Documents/GitHub/docsearch/written_2/non-fiction/OUP/Castro/chZ.txt
 Not case sensitive so will return the text file. Its good for searching txt files containing a word regardless of case. 
 
-5. ```find /Users/ashutoshmadhu/Documents/GitHub/docsearch/written_2 -type d```
-find [depth](https://tecadmin.net/how-to-limit-directory-depth-with-find-command/)     
+5. ```find /Users/ashutoshmadhu/Documents/GitHub/docsearch/written_2 -type d```  
+find [depth](https://tecadmin.net/how-to-limit-directory-depth-with-find-command/)       
 Output:   
 /Users/ashutoshmadhu/Documents/GitHub/docsearch/written_2
 /Users/ashutoshmadhu/Documents/GitHub/docsearch/written_2/non-fiction
@@ -58,7 +58,7 @@ Output:
 This command lists sub directories but up to a directory depth of 1. This is useful because we can limit the search to a depth of one.
 
 7. ```find /Users/ashutoshmadhu/Documents/GitHub/docsearch/written_2  -size +200k```  
-find[filesize](https://linuxconfig.org/how-to-use-find-command-to-search-for-files-based-on-file-size)   
+find [filesize](https://linuxconfig.org/how-to-use-find-command-to-search-for-files-based-on-file-size)   
 Output:  
 /Users/ashutoshmadhu/Documents/GitHub/docsearch/written_2/travel_guides/berlitz1/WhereToItaly.txt
 /Users/ashutoshmadhu/Documents/GitHub/docsearch/written_2/travel_guides/berlitz1/WhereToFrance.txt
