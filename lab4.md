@@ -14,7 +14,7 @@ Logged in ieng6
 type the command <ctrl> <r> <vi> <space><L><enter>
 ![Vim command](reversevimlistexamples.png) 
 ![FileBefore](vim.png)
-use up arrow  6 times <up> times then type <b><b><left><r><2>. 
+use up arrow  6 times ```<up>``` times then type ```<b><b><left><r><2>```. 
 ![FileAfter](correctedbug.png) 
 type <:><wq><enter>
 ```<ctrl>``` + ```<r>```  then type <javac> to compile 
