@@ -56,7 +56,7 @@ fi
 
 echo "Total Score:" $score/2
 ```  
-***Case 1***  
+***CASE 1***  
 ```bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-lab3```  
 Output:  
 Cloning into 'student-submission'...  
@@ -88,4 +88,92 @@ org.junit.runners.model.TestTimedOutException: test timed out after 500 millisec
 
 FAILURES!!!
 Tests run: 2,  Failures: 1
+
+1) testMergeRightEnd(TestListExamples)
+1. test failure [0/1]
+2. test successful [1/1]
+Total Score: 1/2. 
+
+NOTE: This TESTLISTEXAMPLES.java  is copied to the student-submission directory
+
+***CASE 2***
+bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-corrected 
+Cloning into 'student-submission'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+Finished cloning
+TestListExamples found in the student-submission folder
+Compiled successfully
+JUnit version 4.13.2
+..
+Time: 0.011
+
+OK (2 tests)
+
+1. test successful [1/1]
+2. test successful [1/1]
+Total Score: 2/2
+
+NOTE: This is a perfect case where all tests passed. 
+
+***CASE 3***
+list-examples-grader % bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-compile-error  
+Cloning into 'student-submission'... 
+remote: Enumerating objects: 3, done. 
+remote: Counting objects: 100% (3/3), done. 
+remote: Compressing objects: 100% (2/2), done. 
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0 
+Receiving objects: 100% (3/3), done. 
+Finished cloning
+TestListExamples found in the student-submission folder 
+ListExamples.java:15: error: ';' expected 
+        result.add(0, s) 
+                        ^ 
+1 error 
+Did not compile 
+
+***CASE 4***
+ist-examples-grader % 
+bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-signature
+Cloning into 'student-submission'...
+remote: Enumerating objects: 3, done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 3
+Receiving objects: 100% (3/3), done.
+Finished cloning
+TestListExamples found in the student-submission folder
+TestListExamples.java:26: error: incompatible types: List<String> cannot be converted to StringChecker
+    List<String> filter = ListExamples.filter(listWords, isMoon);
+                                              ^
+Note: Some messages have been simplified; recompile with -Xdiags:verbose to get full output
+1 error
+Did not compile
+
+***CASE 5***
+
+bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-filename  
+Output: 
+Cloning into 'student-submission'... 
+remote: Enumerating objects: 3, done. 
+remote: Counting objects: 100% (3/3), done. 
+remote: Compressing objects: 100% (2/2), done. 
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0 
+Receiving objects: 100% (3/3), done. 
+Finished cloning 
+TestListExamples found in the student-submission folder 
+TestListExamples.java:17: error: cannot find symbol 
+    List<String> merged = ListExamples.merge(left, right); 
+                          ^
+  symbol:   variable ListExamples 
+  location: class TestListExamples 
+TestListExamples.java:26: error: cannot find symbol 
+    List<String> filter = ListExamples.filter(listWords, isMoon); 
+                          ^
+  symbol:   variable ListExamples 
+  location: class TestListExamples 
+2 errors 
+    
+NOTE: Did not compile 
 
