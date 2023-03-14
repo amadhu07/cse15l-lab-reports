@@ -1,4 +1,4 @@
-#Lab 6#
+#Lab 6#  
 **This is my grade.sh file!** 
 ```
 CPATH='.:../lib/hamcrest-core-1.3.jar:../lib/junit-4.13.2.jar'
@@ -57,7 +57,7 @@ fi
 echo "Total Score:" $score/2
 ```  
 ***CASE 1***  
-```bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-lab3```  
+type the command ```bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-lab3```  
 Output:  
 Cloning into 'student-submission'...  
 remote: Enumerating objects: 3, done.  
@@ -95,16 +95,17 @@ Tests run: 2,  Failures: 1
 Total Score: 1/2. 
 
 NOTE: This TESTLISTEXAMPLES.java  is copied to the student-submission directory
+![TestCopied](copied-student-submission.png)
 
 ***CASE 2***.= 
-```bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-corrected.```  
+type the command ```bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-corrected.```  
 Cloning into 'student-submission'...  
-remote: Enumerating objects: 3, done.  
-remote: Counting objects: 100% (3/3), done.  
-remote: Compressing objects: 100% (2/2), done.  
-remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0. 
-Receiving objects: 100% (3/3), done.  
-Finished cloning  
+remote: Enumerating objects: 3, done.    
+remote: Counting objects: 100% (3/3), done.      
+remote: Compressing objects: 100% (2/2), done.       
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0.     
+Receiving objects: 100% (3/3), done.      
+Finished cloning     
 TestListExamples found in the student-submission folder 
 Compiled successfully 
 JUnit version 4.13.2 
@@ -121,25 +122,24 @@ NOTE: This is a perfect case where all tests passed.
 
 
 ***CASE 3*** 
-list-examples-grader % bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-compile-error   
-Cloning into 'student-submission'...  
-remote: Enumerating objects: 3, done.  
-remote: Counting objects: 100% (3/3), done.  
-remote: Compressing objects: 100% (2/2), done.  
-remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0  
-Receiving objects: 100% (3/3), done.  
-Finished cloning 
-TestListExamples found in the student-submission folder  
-ListExamples.java:15: error: ';' expected  
-        result.add(0, s)  
+type the command ```bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-compile-error```      
+Cloning into 'student-submission'...    
+remote: Enumerating objects: 3, done.    
+remote: Counting objects: 100% (3/3), done.    
+remote: Compressing objects: 100% (2/2), done.    
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0   
+Receiving objects: 100% (3/3), done.    
+Finished cloning   
+TestListExamples found in the student-submission folder     
+ListExamples.java:15: error: ';' expected    
+        result.add(0, s)     
                         ^ 
-1 error  
-Did not compile  
+1 error   
+Did not compile   
 
-***CASE 4*** 
-ist-examples-grader %  
-bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-signature 
-Cloning into 'student-submission'... 
+***CASE 4***   
+type the command ```bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-signature```   
+Cloning into 'student-submission'...  
 remote: Enumerating objects: 3, done. 
 remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 3 
 Receiving objects: 100% (3/3), done. 
@@ -154,18 +154,18 @@ Did not compile
 
 ***CASE 5*** 
 
-bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-filename   
-Output:  
-Cloning into 'student-submission'...  
-remote: Enumerating objects: 3, done.  
-remote: Counting objects: 100% (3/3), done.  
-remote: Compressing objects: 100% (2/2), done.  
-remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0  
+type the command ```bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-filename```   
+Output:    
+Cloning into 'student-submission'...    
+remote: Enumerating objects: 3, done.    
+remote: Counting objects: 100% (3/3), done.    
+remote: Compressing objects: 100% (2/2), done.    
+remote: Total 3 (delta 0), reused 3 (delta 0), pack-reused 0   
 Receiving objects: 100% (3/3), done.  
 Finished cloning  
-TestListExamples found in the student-submission folder  
-TestListExamples.java:17: error: cannot find symbol  
-    List<String> merged = ListExamples.merge(left, right);  
+TestListExamples found in the student-submission folder   
+TestListExamples.java:17: error: cannot find symbol   
+    List<String> merged = ListExamples.merge(left, right);   
                           ^
   symbol:   variable ListExamples  
   location: class TestListExamples  
@@ -176,5 +176,5 @@ TestListExamples.java:26: error: cannot find symbol
   location: class TestListExamples  
 2 errors  
     
-NOTE: Did not compile  
+NOTE: Did not compile   
 
