@@ -96,8 +96,8 @@ Total Score: 1/2.
 
 NOTE: This TESTLISTEXAMPLES.java  is copied to the student-submission directory
 
-***CASE 2***
-bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-corrected.  
+***CASE 2***.= 
+```bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-corrected.```  
 Cloning into 'student-submission'...
 remote: Enumerating objects: 3, done.
 remote: Counting objects: 100% (3/3), done.
@@ -117,7 +117,8 @@ OK (2 tests)
 2. test successful [1/1]
 Total Score: 2/2
 
-NOTE: This is a perfect case where all tests passed. 
+NOTE: This is a perfect case where all tests passed.
+
 
 ***CASE 3***
 list-examples-grader % bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-compile-error  
