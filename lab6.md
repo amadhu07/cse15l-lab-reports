@@ -97,7 +97,7 @@ Total Score: 1/2.
 NOTE: This TESTLISTEXAMPLES.java  is copied to the student-submission directory
 
 ***CASE 2***
-bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-corrected 
+bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-corrected.  
 Cloning into 'student-submission'...
 remote: Enumerating objects: 3, done.
 remote: Counting objects: 100% (3/3), done.
