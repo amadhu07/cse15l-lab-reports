@@ -24,7 +24,7 @@ type <:><wq><enter>
   
 ```<ctrl>``` + ```<r>```+ type ```<git><commit><space><-m>``` to commit.
   
-```<ctrl>``` + ```<r>``` + type <git><space><p><enter> to push file to repository. 
+```<ctrl>``` + ```<r>``` + type ```<git><space><p><enter>``` to push file to repository. 
 ![CommitAndPush](commitandpush.png). 
 
 
