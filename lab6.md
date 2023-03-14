@@ -55,9 +55,9 @@ else
 fi
 
 echo "Total Score:" $score/2
-```
-***Case 1***
-```bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-lab3``` 
+```  
+***Case 1***  
+```bash grade.sh https://github.com/ucsd-cse15l-f22/list-methods-lab3```  
 Output:  
 Cloning into 'student-submission'...  
 remote: Enumerating objects: 3, done.  
