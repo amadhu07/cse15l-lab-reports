@@ -274,24 +274,24 @@ Note: in the filter method of ListExamples.java the String checker if condition 
 ![Case8](case8.png) 
     
 ***CASE 9 Custom Bad Example*** 
-```bash grade.sh https://github.com/amadhu07/list-methods-bad-example.git``` 
-Cloning into 'student-submission'... 
-remote: Enumerating objects: 6, done. 
-remote: Counting objects: 100% (6/6), done. 
-remote: Compressing objects: 100% (4/4), done. 
-remote: Total 6 (delta 1), reused 2 (delta 0), pack-reused 0 
-Receiving objects: 100% (6/6), done. 
-Resolving deltas: 100% (1/1), done. 
+```bash grade.sh https://github.com/amadhu07/list-methods-bad-example.git```  
+Cloning into 'student-submission'...  
+remote: Enumerating objects: 6, done.  
+remote: Counting objects: 100% (6/6), done.  
+remote: Compressing objects: 100% (4/4), done.  
+remote: Total 6 (delta 1), reused 2 (delta 0), pack-reused 0  
+Receiving objects: 100% (6/6), done.  
+Resolving deltas: 100% (1/1), done.  
 Finished cloning 
-TestListExamples found in the student-submission folder 
-TestListExamples.java:17: error: method merge in class ListExamples cannot be applied to given types; 
-    List<String> merged = ListExamples.merge(left, right); 
+TestListExamples found in the student-submission folder  
+TestListExamples.java:17: error: method merge in class ListExamples cannot be applied to given types;  
+    List<String> merged = ListExamples.merge(left, right);  
                                       ^ 
-  required: List<String>,List<String>,boolean 
-  found:    List<String>,List<String> 
+  required: List<String>,List<String>,boolean  
+  found:    List<String>,List<String>    
   reason: actual and formal argument lists differ in length 
-1 error 
-Did not compile 
-ashutoshmadhu@Ashutoshs-MBP list-examples-grader % 
+1 error  
+Did not compile  
+ashutoshmadhu@Ashutoshs-MBP list-examples-grader %   
 
-Note: In ListExamples merge method it has a third argument “readyToMerge” which expects a boolean value  
+Note: In ListExamples merge method it has a third argument “readyToMerge” which expects a boolean value   
