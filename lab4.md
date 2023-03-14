@@ -4,12 +4,11 @@ Logged in ieng6.
 ```<ctrl>``` + ```<r>``` type ssh bash command was ssh cs15lwi23aub@ieng6.ucsd.edu. 
 ![clone](reverseGitClone.png). 
 ```<ctrl>``` + ```<r>```  then type <git><space><clone>.
-'''<ls><space><-l>'''. 
-![List](list.png).  
+```<ls><space><-l>```
+```<ctrl> <r> type <cd><space><l><tab><enter>```
+![List](list.png).
 <ctrl>+<r> + type <javac>
-  
 ![compile](compjava.png)
-<ctrl> <r> type <cd><space> <enter>
 ```<ctrl>``` + ```<r>``` + type <java><space><-><enter> to run the ListExamplesTests file. 
 ![RunTest](runJavaTestFaild.png)
 type the command <ctrl> <r> <vi> <space><L><enter>
@@ -21,9 +20,9 @@ type <:><wq><enter>
 ```<ctrl>``` + ```<r>```  then type <javac> to compile
 ```<ctrl>``` + ```<r>``` then ype <java> to run
 ![PassedTest](passedListExamplesTest.png). 
-```<ctrl>``` + ```<r>``` + type <git><space><a><enter> to commit add
-```<ctrl>``` + ```<r>```+ type <git><commit><space><-m> to commit  
-```<ctrl>``` + ```<r>``` + type <git><space><p><enter> to push file to repository
+```<ctrl>``` + ```<r>``` + type ```<git><space><a><enter>``` to commit add. 
+```<ctrl>``` + ```<r>```+ type ```<git><commit><space><-m>``` to commit.   
+```<ctrl>``` + ```<r>``` + type <git><space><p><enter> to push file to repository. 
 ![CommitAndPush](commitandpush.png). 
 
 
